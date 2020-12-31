@@ -1,0 +1,71 @@
+body {
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: Creolia;
+  background-image: url(images/background_homepage.jpeg);
+  /* background-position-y: 46%; */
+  animation: animatedBackground 10s linear infinite alternate;
+  background-position: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.smb-jumbotron {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 4rem;
+  font-size: 2rem;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+.smb-jumbotron > p {
+  margin-bottom: 36px;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 2.4rem;
+  font-family: 'Grand Slang';
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 2.8rem;
+}
+
+.smb-jumbotron > span {
+  font-size: 1rem;
+  font-family: UniversNextPro-Ext;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  body {
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: Creolia;
+  background-color: lightblue;
+  background-image: url(images/background_homepage.jpeg);
+  /* background-position-y: 46%; */
+}
+.smb-jumbotron {
+  height: 100%;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 10rem;
+  font-size: 1.8rem;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+.smb-jumbotron > p {
+  margin-bottom: 36px;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 4.2rem;
+  font-family: 'Grand Slang';
+  line-height: 2.8rem;
+}
+
+.smb-jumbotron > span {
+  font-size: 1rem;
+  font-family: UniversNextPro-Ext;
+  text-transform: uppercase;
+}
+}
